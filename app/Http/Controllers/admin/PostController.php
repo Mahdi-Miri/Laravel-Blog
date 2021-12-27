@@ -10,7 +10,7 @@ use Intervention\Image\Facades\Image;
 use mysql_xdevapi\Exception;
 use function GuzzleHttp\Promise\all;
 
-class Postcontroller extends Controller
+class PostController extends Controller
 {
 
     public function creat()
